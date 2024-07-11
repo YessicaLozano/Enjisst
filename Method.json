@@ -1,0 +1,2526 @@
+{
+"Methods" : [
+   {
+       "id" : "ANW-1",
+       "class" :"com.worker.test.steps.web.NavigationSteps",
+        "type" : "new",
+        "method" : "navigateTo(param[0])"
+    },
+    {
+        "id" : "ANW-2",
+        "class" :"com.worker.test.steps.web.NavigationSteps",
+        "type" : "new",
+        "method" : "navigateAuthTo(param[0],param[1],param[2])"
+    },
+    {
+        "id" : "ANW-3",
+        "class" :"com.worker.test.steps.web.NavigationSteps",
+        "type" : "new",
+        "method" : "refreshPage()"
+    },
+    {
+        "id" : "ANW-4",
+        "class" :"com.worker.test.steps.web.NavigationSteps",
+        "type" : "new",
+        "method" : "changeToPopup()"
+    },
+    {
+        "id" : "ANW-5",
+        "class" :"com.worker.test.steps.web.NavigationSteps",
+        "type" : "new",
+        "method" : "closePopupAndReturnMain()"
+    },
+    {
+        "id" : "ANW-6",
+        "class" :"com.worker.test.steps.web.NavigationSteps",
+        "type" : "new",
+        "method" : "returnMain(a la ventana)"
+    },
+    {
+        "id" : "ANW-7",
+        "class" :"com.worker.test.steps.web.NavigationSteps",
+        "type" : "new",
+        "method" : "returnMain(al marco)"
+    },
+    {
+        "id" : "ANW-8",
+        "class" :"com.worker.test.steps.web.NavigationSteps",
+        "type" : "new",
+        "method" : "changeToFrame(param[0],ID)"
+    },
+    {
+        "id" : "ANW-9",
+        "class" :"com.worker.test.steps.web.NavigationSteps",
+        "type" : "new",
+        "method" : "navigateForward(siguiente)"
+    },
+    {
+        "id" : "ANW-10",
+        "class" :"com.worker.test.steps.web.NavigationSteps",
+        "type" : "new",
+        "method" : "navigateForward(anterior)"
+    },
+    {
+        "id" : "ANW-11",
+        "class" :"com.worker.test.steps.web.NavigationSteps",
+        "type" : "new",
+        "method" : "switchToNewWindowsByTitle(cambia a,param[0])"
+    },
+    {
+        "id" : "ANW-12",
+        "class" :"com.worker.test.steps.web.NavigationSteps",
+        "type" : "new",
+        "method" : "switchToNewWindowsByTitle(cierra,param[0])"
+    },
+    {
+        "id" : "ANW-13",
+        "class" :"com.worker.test.steps.web.NavigationSteps",
+        "type" : "new",
+        "method" : "resizeBrowser(param[0],param[1])"
+    },
+    {
+      "id" : "ANW-14",
+      "class" :"com.worker.test.steps.web.NavigationSteps",
+      "type" : "new",
+      "method" : "changeToFrame(param[0],IND)"
+    },
+    {
+        "id" : "AEW-1",
+        "class" :"com.worker.test.steps.web.KeyEventSteps",
+        "type" : "new",
+        "method" : "inputText(param[0],param[1],true)"
+    },
+    {
+        "id" : "AEW-1A",
+        "class" :"com.worker.test.steps.web.KeyEventSteps",
+        "type" : "new",
+        "method" : "inputText(param[0],param[1],false)"
+    },
+    {
+        "id" : "AEW-2",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "clearText(param[0])"
+    },
+    {
+        "id" : "AEW-3",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "selectOptionDropdown(selecciona,texto,param[0],param[1])"
+    },
+    {
+        "id" : "AEW-4",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "selectOptionDropdown(selecciona,valor,param[0],param[1])"
+    },
+    {
+        "id" : "AEW-5",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "selectOptionDropdown(selecciona,índice,param[0],param[1])"
+    },
+    {
+        "id" : "AEW-6",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "selectOptionDropdown(deselecciona,texto,param[0],param[1])"
+    },
+    {
+        "id" : "AEW-7",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "selectOptionDropdown(deselecciona,valor,param[0],param[1])"
+    },
+    {
+        "id" : "AEW-8",
+        "type" : "new",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "method" : "selectOptionDropdown(deselecciona,índice,param[0],param[1])"
+    },
+    {
+        "id" : "AEW-9",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "deselectAllOptionDropdown(param[0])"
+    },
+    {
+        "id" : "AEW-10",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "selectRadioButton(param[0])"
+    },
+    {
+        "id" : "AEW-11",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "checkCheckbox(activa,param[0])"
+    },
+    {
+        "id" : "AEW-12",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "checkCheckbox(desactiva,param[0])"
+    },
+    {
+        "id" : "AEW-13",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "checkCheckbox(param[0],param[1])"
+    },
+    {
+        "id" : "AEW-14",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "acceptAlert(acepta)"
+    },
+    {
+        "id" : "AEW-15",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "acceptAlert(cancela)"
+    },
+    {
+        "id" : "AEW-16",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "selectRadioButtonWithType(value,param[0])"
+    },
+    {
+        "id" : "AEW-17",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "selectRadioButtonWithType(id,param[0])"
+    },
+    {
+        "id" : "AEW-18",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "selectRadioButtonWithType(name,param[0])"
+    },
+    {
+        "id" : "AEW-19",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "checkCheckboxWithType(activa,value,param[0])"
+    },
+    {
+        "id" : "AEW-20",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "checkCheckboxWithType(desactiva,value,param[0])"
+    },
+    {
+        "id" : "AEW-21",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "checkCheckboxWithType(activa,id,param[0])"
+    },
+    {
+        "id" : "AEW-22",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "checkCheckboxWithType(desactiva,id,param[0])"
+    },
+    {
+        "id" : "AEW-23",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "checkCheckboxWithType(activa,name,param[0])"
+    },
+    {
+        "id" : "AEW-24",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "checkCheckboxWithType(desactiva,name,param[0])"
+    },
+    {
+        "id" : "AEW-25",
+        "class" :"com.worker.test.steps.web.KeyEventSteps",
+        "type" : "new",
+        "method" : "setDate(param[0],param[1])"
+    },
+    {
+        "id" : "AEW-26",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "fileUpload(param[0],param[1])"
+    },
+    {
+        "id" : "AEW-27",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "fileUpload(param[0],param[1])"
+    },
+    {
+        "id" : "ATW-1",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "checkCheckboxInsideElement(param[0],activa,param[1])"
+    },
+    {
+        "id" : "ATW-2",
+        "class" :"com.worker.test.steps.web.ElementSteps",
+        "type" : "new",
+        "method" : "checkCheckboxInsideElement(param[0],desactiva,param[1])"
+    },
+    {
+        "id" : "AAR-3",
+        "class" :"com.worker.test.steps.backend.ExcelFileSteps",
+        "type" : "invoke",
+        "method" : "readExcel(Excel,param[0],param[1])"
+    },
+    {
+        "id" : "AAR-4",
+        "class":"com.worker.test.steps.backend.ExcelFileSteps",
+        "type" : "invoke",
+        "method" : "selectRowExcel(param[0],param[1])"
+    },
+    {
+        "id" : "AAR-5",
+        "class":"com.worker.test.steps.backend.FileSteps",
+        "type" : "invoke",
+        "method" : "copyMoveFileToPath(copia, param[0], param[1])"
+    },
+    {
+        "id" : "AAR-6",
+        "class" :"com.worker.test.steps.backend.FileSteps",
+        "type" : "invoke",
+        "method" : "copyMoveFileToPath(mueve, param[0], param[1])"
+    },
+    {
+        "id" : "AAR-6A",
+        "class" :"com.worker.test.steps.backend.FileSteps",
+        "type" : "invoke",
+        "method" : "copyMoveFileToPath(renombra, param[0], param[1])"
+    },
+    {
+        "id" : "AAR-7",
+        "class" :"com.worker.test.steps.backend.FileSteps",
+        "type" : "invoke",
+        "method" : "deleteFilesByNombre(param[0], param[1])"
+    },
+    {
+        "id" : "AAR-8",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "type" : "invoke",
+        "method" : "readCsv(param[0])"
+    },
+    {
+        "id" : "AAR-9",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "type" : "invoke",
+        "method" : "deleteRowColumnCsv(limpia,columna,param[0])"
+    },
+    {
+        "id" : "AAR-13",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "type" : "invoke",
+        "method" : "deleteRowColumnCsv(elimina,columna,param[0])"
+    },
+    {
+        "id" : "AAR-14",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "type" : "invoke",
+        "method" : "deleteRowColumnCsv(limpia,fila,param[0])"
+    },
+    {
+        "id" : "AAR-15",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "type" : "invoke",
+        "method" : "deleteRowColumnCsv(elimina,fila,param[0])"
+    },
+    {
+        "id" : "AAR-10",
+        "class":"com.worker.test.steps.backend.ExcelFileSteps",
+        "type" : "invoke",
+        "method" : "writeTextInCellExcel(param[0],param[1])"
+    },
+    {
+        "id" : "AAR-10A",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "type" : "invoke",
+        "method" : "writeTextInCellCSV(param[0],param[1])"
+    },
+    {
+        "id" : "AAR-11",
+        "class":"com.worker.test.steps.backend.FileSteps",       
+        "type" : "invoke",
+        "method" : "unzipFile(descomprime,param[0])"
+    },
+    {
+        "id" : "AAR-12",
+        "class":"com.worker.test.steps.backend.FileSteps",       
+        "type" : "invoke",
+        "method" : "unzipFile(comprime,param[0])"
+    },
+    {
+        "id" : "AAR-16",
+        "class":"com.worker.test.steps.backend.XmlSteps",       
+        "type" : "invoke",
+        "method" : "defineXml(carga el archivo, param[0])"
+    },
+    {
+        "id" : "AAR-17",
+        "class":"com.worker.test.steps.backend.XmlSteps",
+        "type" : "invoke",
+        "method" : "defineXml(define la estructura, param[0])"
+    },
+    {
+        "id" : "AAR-18",
+        "class":"com.worker.test.steps.backend.PositionFileSteps",
+        "type" : "invoke",
+        "method" : "replacePositionFile(param[4],false,false,param[0],param[1],param[2],param[3])"
+    },
+    {
+        "id" : "AAR-19",
+        "class":"com.worker.test.steps.backend.PositionFileSteps",
+        "type" : "invoke",
+        "method" : "replacePositionFile(param[3],false,false,all,param[0],param[1],param[2])"
+    },
+    {
+        "id" : "AAR-20",
+        "class":"com.worker.test.steps.backend.PositionFileSteps",
+        "type" : "invoke",
+        "method" : "replacePositionFile(param[4],true,false,param[0],param[1],param[2],param[3])"
+    },
+    {
+        "id" : "AAR-21",
+        "class":"com.worker.test.steps.backend.PositionFileSteps",
+        "type" : "invoke",
+        "method" : "replacePositionFile(param[3],true,false,all,param[0],param[1],param[2])"
+    },
+
+    {
+        "id" : "AAR-22",
+        "class":"com.worker.test.steps.backend.PositionFileSteps",
+        "type" : "invoke",
+        "method" : "replacePositionFile(param[4],false,true,param[0],param[1],param[2],param[3])"
+    },
+     {
+        "id" : "AAR-23",
+        "class":"com.worker.test.steps.backend.PositionFileSteps",
+        "type" : "invoke",
+        "method" : "replacePositionFile(param[3],false,true,all,param[0],param[1],param[2])"
+     },
+     {
+        "id" : "AAR-24",
+        "class":"com.worker.test.steps.backend.PositionFileSteps",
+        "type" : "invoke",
+        "method" : "replacePositionFile(param[4],true,true,param[0],param[1],param[2],param[3])"
+     },
+    {
+      "id" : "AAR-25",
+      "class":"com.worker.test.steps.backend.PositionFileSteps",
+      "type" : "invoke",
+      "method" : "replacePositionFile(param[3],true,true,all,param[0],param[1],param[2])"
+    },
+     {
+        "id" : "AAR-26",
+        "class":"com.worker.test.steps.backend.FileSteps",
+        "type" : "invoke",
+        "method" : "sendFtpFile(enviar, param[0], param[1], param[2])"
+     },
+     {
+       "id" : "AAR-27",
+       "class":"com.worker.test.steps.backend.FileSteps",
+       "type" : "invoke",
+       "method" : "sendFtpFile(traer, param[0], param[1], param[2])"
+     },
+     {
+        "id" : "AEM-1",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "type" : "invoke",
+        "method" : "connectMail(param[0])"
+     },
+     {
+        "id" : "AEM-2",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "type" : "invoke",
+        "method" : "downloadMailDocument(param[0],param[1])"
+    },
+    {
+        "id" : "AEM-3",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "type" : "invoke",
+        "method" : "sendMail(param[0],param[1],param[2])"
+    },
+    {
+        "id" : "AEM-4",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "type" : "invoke",
+        "method" : "sendMailWithAttached(param[0],param[1],param[2],param[3])"
+    },
+    {
+        "id" : "AEM-5",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "type" : "invoke",
+        "method" : "navegateToLinkMail(param[0],\"asunto\", param[1])"
+    },
+    {
+        "id" : "ATE-1",
+        "class" :"com.worker.test.steps.web.KeyEventSteps",
+        "type" : "new",
+        "method" : "pressKey(param[0])"
+    },
+    {
+        "id" : "ATE-2",
+        "class" :"com.worker.test.steps.web.KeyEventSteps",
+        "type" : "new",
+        "method" : "pressKeyElement(param[0], param[1])"
+    },
+    {
+        "id" : "ATE-3",
+        "class" :"com.worker.test.steps.web.KeyEventSteps",
+        "type" : "new",
+        "method" : "pressKeys(param[0])"
+    },
+    {
+      "id" : "ATE-4",
+      "class" :"com.worker.test.steps.web.KeyEventSteps",
+      "type" : "new",
+      "method" : "selectAll()"
+    },
+    {
+      "id" : "ATE-5",
+      "class" :"com.worker.test.steps.web.KeyEventSteps",
+      "type" : "new",
+      "method" : "pressCtrlKeys(param[0])"
+    },
+    {
+      "id" : "ATE-6",
+      "class" :"com.worker.test.steps.web.KeyEventSteps",
+      "type" : "new",
+      "method" : "pressAltKeys(param[0])"
+    },
+    {
+        "id" : "AMW-1",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "moveMouseOverElement(sobre el,param[0])"
+    },
+    {
+        "id" : "AMW-2",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "moveMouseOverElement(fuera del,param[0])"
+    },
+    {
+        "id" : "AMW-3",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "clickOnElement(clic,param[0])"
+    },
+    {
+        "id" : "AMW-4",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "clickOnElement(doble clic,param[0])"
+    },
+    {
+        "id" : "AMW-22",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "clickOnElement(clic derecho,param[0])"
+    },
+    {
+        "id" : "AMW-23",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "clickByCoordinates(true,param[0],param[1],param[2])"
+    },
+    {
+        "id" : "AMW-24",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "clickByCoordinates(false,null,param[0],param[1])"
+    },
+    {
+        "id" : "AMW-25",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "clickSusteinedByCoordinates(false,false,null,param[0],param[1],param[2],param[3])"
+    },
+    {
+        "id" : "AMW-26",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "clickSusteinedByCoordinates(true,false,param[0],param[1],param[2],param[3],param[4])"
+    },
+    {
+        "id" : "AMW-27",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "clickSusteinedByCoordinates(true,true,param[0],param[1],param[2],0,0)"
+    },
+    {
+        "id" : "AMW-5",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "clickOnLink(texto,param[0])"
+    },
+    {
+        "id" : "AMW-6",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "clickOnLink(texto parcial,param[0])"
+    },
+    {
+        "id" : "AMW-7",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "clickOnElementInsideElement(param[0],clic,param[1])"
+    },
+    {
+        "id" : "AMW-8",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "clickOnElementInsideElement(param[0],doble clic,param[1])"
+    },
+    {
+        "id" : "AMW-9",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "moveMouseOverElementAndClick(param[0],clic,param[1])"
+    },
+    {
+        "id" : "AMW-10",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "moveMouseOverElementAndClick(param[0],doble clic,param[1])"
+    },
+    {
+        "id" : "AMW-11",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "dragAndDropElement(param[0],sobre el,param[1])"
+    },
+    {
+        "id" : "AMW-21",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "dragAndDropElement(param[0],fuera del,param[1])"
+    },
+    {
+        "id" : "AMW-12",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "moveMouseOverElementAndDragAndDrop(param[0],param[1],sobre el,param[2])"
+    },
+    {
+        "id" : "AMW-20",
+        "class" :"com.worker.test.steps.web.MouseEventSteps",
+        "type" : "new",
+        "method" : "moveMouseOverElementAndDragAndDrop(param[0],param[1],fuera del,param[2])"
+    },
+    {
+        "id" : "VNW-1",
+        "class" :"com.worker.test.steps.web.NavigationSteps",
+        "type" : "new",
+        "method" : "checkPageTitle(debe,título, param[0])"
+    },
+    {
+        "id" : "VNW-2",
+        "class" :"com.worker.test.steps.web.NavigationSteps",
+        "type" : "new",
+        "method" : "checkPageTitle(no debe,título, param[0])"
+    },
+    {
+        "id" : "VNW-3",
+        "class" :"com.worker.test.steps.web.NavigationSteps",
+        "type" : "new",
+        "method" : "checkPageTitle(debe,título parcial, param[0])"
+    },
+    {
+        "id" : "VNW-4",
+        "class" :"com.worker.test.steps.web.NavigationSteps",
+        "type" : "new",
+        "method" : "checkPageTitle(no debe,título parcial, param[0])"
+    },
+    {
+        "id" : "VEW-1",
+        "class" :"com.worker.test.steps.web.AssertionSteps",
+        "type" : "new",
+        "method" : "checkElement(debe,param[0])"
+    },
+    {
+        "id" : "VEW-2",
+        "class" :"com.worker.test.steps.web.AssertionSteps",
+        "type" : "new",
+        "method" : "checkElement(no debe,param[0])"
+    },
+    {
+        "id" : "VEW-3",
+        "class" :"com.worker.test.steps.web.AssertionSteps",
+        "type" : "new",
+        "method" : "checkElementTextPresent(debe,param[0],texto,param[1])"
+    },
+    {
+        "id" : "VEW-4",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "type" : "new",
+        "method" : "checkElementTextPresent(debe,param[0],texto parcial,param[1])"
+    },
+    {
+        "id" : "VEW-5",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "type" : "new",
+        "method" : "checkElementTextPresent(no debe,param[0],texto,param[1])"
+    },
+    {
+        "id" : "VEW-6",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "type" : "new",
+        "method" : "checkElementTextPresent(no debe,param[0],texto parcial,param[1])"
+    },
+    {
+        "id" : "VEW-7",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "type" : "new",
+        "method" : "checkElementNotEmpty(campo de texto,param[0],debe)"
+    },
+    {
+        "id" : "VEW-8",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "type" : "new",
+        "method" : "checkElementNotEmpty(elemento,param[0],debe)"
+    },
+    {
+        "id" : "VEW-9",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "type" : "new",
+        "method" : "checkElementNotEmpty(campo de texto,param[0],no debe)"
+    },
+    {
+        "id" : "VEW-10",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "type" : "new",
+        "method" : "checkElementNotEmpty(elemento,param[0],no debe)"
+    },
+    {
+        "id" : "VEW-11",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "type" : "new",
+        "method" : "checkTooltipElementText(param[0],debe,texto,param[1])"
+    },
+    {
+        "id" : "VEW-12",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "type" : "new",
+        "method" : "checkTooltipElementText(param[0],debe,texto parcial,param[1])"
+    },
+    {
+        "id" : "VEW-13",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "type" : "new",
+        "method" : "checkTooltipElementText(param[0],no debe,texto,param[1])"
+    },
+    {
+        "id" : "VEW-14",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "type" : "new",
+        "method" : "checkTooltipElementText(param[0],no debe,texto parcial,param[1])"
+    },
+    {
+        "id" : "VEW-15",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "type" : "new",
+        "method" : "checkElementPresent(param[0],debe)"
+    },
+    {
+        "id" : "VEW-16",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkElementPresent(param[0],no debe)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-17",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkElementEnable(param[0],debe)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-18",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkElementEnable(param[0],no debe)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-19",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkRadioButtonCheckboxChecked(campo de verificación,param[0],debe,activado)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-20",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkRadioButtonCheckboxChecked(campo de verificación,param[0],no debe,activado)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-21",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkRadioButtonCheckboxChecked(campo de verificación,param[0],debe,activo)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-22",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkRadioButtonCheckboxChecked(campo de verificación,param[0],param[1],activado)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-23",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkRadioButtonCheckboxChecked(botón circular,param[0],debe,seleccionado)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-24",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkRadioButtonCheckboxChecked(botón circular,param[0],no debe,seleccionado)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-25",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkRadioButtonCheckboxChecked(botón circular,param[0],param[1],seleccionado)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-26",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkLinkPresent(texto,param[0],debe)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-27",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkLinkPresent(texto parcial,param[0],debe)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-28",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkLinkPresent(texto,param[0],no debe)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-29",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkLinkPresent(texto parcial,param[0],no debe)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-30",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkElementsOfType(ver,1,param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-31",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkElementsOfType(ver,param[0],param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-32",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkElementsOfType(ver al menos,1,param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-33",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkElementsOfType(ver al menos,param[0],param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-34",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkElementsOfType(ver menos de,param[0],param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-35",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkJavascriptAlertText(debe,texto,param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-36",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkJavascriptAlertText(debe,texto parcial,param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-37",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkJavascriptAlertText(no debe,texto,param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-38",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkJavascriptAlertText(no debe,texto parcial,param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-39",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkDropdownOptionSelected(texto,param[0],param[1],debe)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-40",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkDropdownOptionSelected(texto parcial,param[0],param[1],debe)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-41",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkDropdownOptionSelected(texto,param[0],param[1],no debe)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-42",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkDropdownOptionSelected(texto parcial,param[0],param[1],no debe)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-43",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkSrcImage(debe,param[0],param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-44",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkSrcImage(no debe,param[0],param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-45",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkColor(param[0],param[1],false)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-46",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkColor(param[0],param[1],true)",
+        "type" : "new"
+    },
+    {
+        "id" : "VEW-47",
+        "class":"com.worker.test.steps.web.AssertionSteps",
+        "method" : "checkColor(param[0],param[1],false)",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-1",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkColumnsTable(param[0],1)",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-2",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkColumnsTable(param[0],param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-3",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkRowsTable(param[0],1)",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-4",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkRowsTable(param[0],param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-5",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkTitlesColumnsTable(param[0],param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-6",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkRowInTable(param[0],debe,param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-7",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkRowInTable(param[0],no debe,param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-8",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkRowInTableByColumns2(param[0],param[1],debe,param[2],o no existe la tabla)",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-9",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkRowInTableByColumns2(param[0],param[1],debe,param[2],null)",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-10",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkRowInTableByColumns2(param[0],param[1],no debe,param[2],o no existe la tabla)",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-11",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkRowInTableByColumns2(param[0],param[1],no debe,param[2],null)",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-12",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkRowsInTableWithFile(param[0],debe,param[1],param[2],param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-13",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkRowsInTableWithFile(param[0],no debe,param[1],param[2],param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-14",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkCellInTable(param[0],param[1],debe,param[2],texto,param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-15",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkCellInTable(param[0],param[1],no debe,param[2],texto,param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-16",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkCellInTable(param[0],param[1],debe,param[2],texto parcial,param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-17",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkCellInTable(param[0],param[1],no debe,param[2],texto parcial,param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-18",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkRecordInTableByColumnNumber(param[0],param[1],debe,param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "VTA-19",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "checkRecordInTableByColumnNumber(param[0],param[1],no debe,param[2])",
+        "type" : "new"
+    },
+    {
+      "id" : "VTA-20",
+      "class":"com.worker.test.steps.web.TableSteps",
+      "method" : "checkRowInTableByColumnsWithNext(param[0],param[1],param[2],debe,param[3])",
+      "type" : "new"
+    },
+    {
+      "id" : "VTA-21",
+      "class":"com.worker.test.steps.web.TableSteps",
+      "method" : "checkRowInTableByColumnsWithNext(param[0],param[1],param[2],no debe,param[3])",
+      "type" : "new"
+    },
+    {
+        "id" : "VTI-1",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+        "method" : "checkDaysPassedOfMonth(exactamente,1)",
+        "type" : "new"
+    },
+    {
+        "id" : "VTI-2",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+         "method" : "checkDaysPassedOfMonth(más de,1)",
+         "type" : "new"
+    },
+    {
+        "id" : "VTI-3",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+         "method" : "checkDaysPassedOfMonth(menos de,1)",
+        "type" : "new"
+    },
+    {
+        "id" : "VTI-4",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+         "method" : "checkDaysPassedOfMonth(exactamente,param[0])",
+         "type" : "new"
+    },
+    {
+        "id" : "VTI-5",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+         "method" : "checkDaysPassedOfMonth(más de,param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "VTI-6",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+         "method" : "checkDaysPassedOfMonth(menos de,param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "VTI-7",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+         "method" : "checkDaysPassedOfMonth(exactamente,param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "VTI-8",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+        "method" : "checkDaysMissingOfMonth(exactamente,1)",
+        "type" : "new"
+    },
+    {
+        "id" : "VTI-9",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+        "method" : "checkDaysMissingOfMonth(más de,1)",
+        "type" : "new"
+    },
+    {
+        "id" : "VTI-10",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+         "method" : "checkDaysMissingOfMonth(menos de,1)",
+         "type" : "new"
+    },
+    {
+        "id" : "VTI-11",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+         "method" : "checkDaysMissingOfMonth(exactamente,param[0])",
+         "type" : "new"
+    },
+    {
+        "id" : "VTI-12",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+         "method" : "checkDaysMissingOfMonth(más de,param[0])",
+         "type" : "new"
+    },
+    {
+        "id" : "VTI-13",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+         "method" : "checkDaysMissingOfMonth(menos de,param[0])",
+         "type" : "new"
+    },
+    {
+        "id" : "VBD-1",
+        "class":"com.worker.test.steps.backend.DataBaseSteps",
+        "method" : "checkRowInTable(param[0],param[1],debe,param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "VBD-2",
+        "class":"com.worker.test.steps.backend.DataBaseSteps",
+        "method" : "checkRowInTable(param[0],param[1],no debe,param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "VBD-3",
+        "class":"com.worker.test.steps.backend.DataBaseSteps",
+        "method" : "checkRowInSql(param[0],param[1],debe,param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "VBD-4",
+        "class":"com.worker.test.steps.backend.DataBaseSteps",
+        "method" : "checkRowInSql(param[0],param[1],no debe,param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "VBD-5",
+        "class":"com.worker.test.steps.backend.DataBaseSteps",
+        "method" : "checkRowInTableWithFile(param[0],param[1],debe,param[2],param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VBD-6",
+        "class":"com.worker.test.steps.backend.DataBaseSteps",
+        "method" : "checkRowInTableWithFile(param[0],param[1],no debe,param[2],param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VBD-7",
+        "class":"com.worker.test.steps.backend.DataBaseSteps",
+        "method" : "checkRowInSqlWithFile(param[0],param[1],debe,param[2],param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VBD-8",
+        "class":"com.worker.test.steps.backend.DataBaseSteps",
+        "method" : "checkRowInSqlWithFile(param[0],param[1],no debe,param[2],param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VBD-9",
+        "class":"com.worker.test.steps.backend.DataBaseSteps",
+        "method" : "checkRowsInTableWithFile(param[0],param[1],debe,param[2],param[3],param[4])",
+        "type" : "new"
+    },
+    {
+        "id" : "VBD-10",
+        "class":"com.worker.test.steps.backend.DataBaseSteps",
+        "method" : "checkRowsInTableWithFile(param[0],param[1],no debe,param[2],param[3],param[4])",
+        "type" : "new"
+    },
+    {
+        "id" : "VBD-11",
+        "class":"com.worker.test.steps.backend.DataBaseSteps",
+        "method" : "checkRowsInSqlWithFile(param[0],param[1],debe,param[2],param[3],param[4])",
+        "type" : "new"
+    },
+    {
+        "id" : "VBD-12",
+        "class":"com.worker.test.steps.backend.DataBaseSteps",
+        "method" : "checkRowsInSqlWithFile(param[0],param[1],no debe,param[2],param[3],param[4])",
+        "type" : "new"
+    },
+    {
+        "id" : "VBD-13",
+        "class":"com.worker.test.steps.backend.DataBaseSteps",
+        "method" : "checkResultsInSql(param[0],param[1],debe)",
+        "type" : "new"
+    },
+    {
+        "id" : "VBD-14",
+        "class":"com.worker.test.steps.backend.DataBaseSteps",
+        "method" : "checkResultsInSql(param[0],param[1],no debe)",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-1",
+        "class":"com.worker.test.steps.backend.FileSteps",
+        "method" : "fileExist(param[0])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAE-2",
+        "class":"com.worker.test.steps.backend.ExcelFileSteps",
+        "method" : "checkNumberOfSheetsExcel(param[0],param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAE-3",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "method" : "equalsRowInDocuments(param[0],debe,param[1],param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-4",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "method" : "equalsRowInDocuments(param[0],no debe,param[1],param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-5",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "method" : "equalsRowInDocuments(param[0],debe,param[1],param[2])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAE-6",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "method" : "equalsRowInDocuments(param[0],no debe,param[1],param[2])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAE-7",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "method" : "equalsRowsInDocumentsRange(param[0],debe,param[1],param[2],param[3])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAE-8",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "method" : "equalsRowsInDocumentsRange(param[0],no debe,param[1],param[2],param[3])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAE-9",
+        "class":"com.worker.test.steps.backend.ExcelFileSteps",
+        "method" : "checkTextInCellExcel(param[0],debe,texto,param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAE-10",
+        "class":"com.worker.test.steps.backend.ExcelFileSteps",
+        "method" : "checkTextInCellExcel(param[0],no debe,texto,param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAE-11",
+        "class":"com.worker.test.steps.backend.ExcelFileSteps",
+        "method" : "checkTextInCellExcel(param[0],debe,texto parcial,param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAE-12",
+        "class":"com.worker.test.steps.backend.ExcelFileSteps",
+        "method" : "checkTextInCellExcel(param[0],no debe,texto parcial,param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAE-13",
+        "class":"com.worker.test.steps.backend.ExcelFileSteps",
+        "method" : "checkTextInColRowExcel(param[0],debe tener,param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAE-15",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+        "method" : "assertionValueIsNumber(param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-16",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+        "method" : "assertionValueEqualities(param[0],mayor a, param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-17",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+        "method" : "assertionValueEqualities(param[0],menor a, param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-18",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+        "method" : "assertionValueEqualities(param[0],igual a, param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-19",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+        "method" : "assertionValueLength(param[0], param[1],dígitos)",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-20",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+        "method" : "assertionValueLength(param[0], param[1],letras)",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-21",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+        "method" : "assertionListContainValues(el valor, param[0], param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-22",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+        "method" : "assertionListValues(param[0], param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-23",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+        "method" : "assertionListContainValues(la lista, param[0], param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-24",
+        "class":"com.worker.test.steps.backend.XmlSteps",       
+        "type" : "invoke",
+        "method" : "ValueTagNoEmpty(param[0],no está)"
+    },
+    {
+        "id" : "VAE-25",
+        "class":"com.worker.test.steps.backend.XmlSteps",       
+        "type" : "invoke",
+        "method" : "ValueTagNoEmpty(param[0],está)"
+    },
+    {
+        "id" : "VAE-26",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+        "type" : "new",
+        "method" : "assertionValueJson(param[0],param[1],texto parcial,param[2])"
+    },
+    {
+        "id" : "VAE-27",
+        "class":"com.worker.test.steps.backend.AssertionSteps",
+        "type" : "new",
+        "method" : "assertionValueJson(param[0],param[1],texto,param[2])"
+    },
+    {
+        "id" : "VAE-28",
+        "class":"com.worker.test.steps.backend.PositionFileSteps",
+        "type" : "new",
+        "method" : "isEqualTextPositionFile(param[0],false,false,param[1],param[2],param[3],param[4])"
+    },
+    {
+        "id" : "VAE-29",
+        "class":"com.worker.test.steps.backend.PositionFileSteps",
+        "type" : "new",
+        "method" : "isEqualTextPositionFile(param[0],false,false,all,param[1],param[2],param[3])"
+    },
+    {
+        "id" : "VAE-30",
+        "class":"com.worker.test.steps.backend.PositionFileSteps",
+        "type" : "new",
+        "method" : "isEqualTextPositionFile(param[0],true,false,0,param[1],param[2],param[3])"
+    },
+    {
+        "id" : "VAE-31",
+        "class":"com.worker.test.steps.backend.PositionFileSteps",
+        "type" : "new",
+        "method" : "isEqualTextPositionFile(param[0],false,true,param[1],param[2],param[3],param[4])"
+    },
+    {
+        "id" : "VAE-32",
+        "class":"com.worker.test.steps.backend.PositionFileSteps",
+        "type" : "new",
+        "method" : "isEqualTextPositionFile(param[0],false,true,0,param[1],param[2],param[3])"
+    },
+    {
+        "id" : "VAE-33",
+        "class":"com.worker.test.steps.backend.PositionFileSteps",
+        "type" : "new",
+        "method" : "isEqualTextPositionFile(param[0],true,true,0,param[1],param[2],param[3])"
+    },
+    {
+        "id" : "VAE-34",
+        "class":"com.worker.test.steps.backend.FlatFileSteps",
+        "type" : "new",
+        "method" : "verifyTextFlatFile(param[1],nulo,true,param[2],param[3],param[0])"
+    },
+    {
+        "id" : "VAE-35",
+        "class":"com.worker.test.steps.backend.FlatFileSteps",
+        "type" : "new",
+        "method" : "verifyTextFlatFile(param[1],nulo,false,0,param[2],param[0])"
+    },
+    {
+        "id" : "VAE-36",
+        "class":"com.worker.test.steps.backend.FlatFileSteps",
+        "type" : "new",
+        "method" : "verifyTextFlatFile(param[1],param[3],true,0,param[2],param[0])"
+    },
+    {
+        "id" : "VAE-37",
+        "class":"com.worker.test.steps.backend.ExcelFileSteps",
+        "method" : "equalsCellOfExcelInDocument(param[0],debe,param[1],param[2],param[3],true)",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-38",
+        "class":"com.worker.test.steps.backend.ExcelFileSteps",
+        "method" : "equalsCellOfExcelInDocument(param[0],no debe,param[1],param[2],param[3],true)",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-39",
+        "class":"com.worker.test.steps.backend.ExcelFileSteps",
+        "method" : "equalsCellOfExcelInDocument(param[0],debe,param[1],param[2],param[3],false)",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-40",
+        "class":"com.worker.test.steps.backend.ExcelFileSteps",
+        "method" : "equalsCellOfExcelInDocument(param[0],no debe,param[1],param[2],param[3],false)",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-41",
+        "class":"com.worker.test.steps.backend.ExcelFileSteps",
+        "method" : "equalsCellInTwoExcel(param[0],debe,param[1],param[2],param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-42",
+        "class":"com.worker.test.steps.backend.ExcelFileSteps",
+        "method" : "equalsCellInTwoExcel(param[0],no debe,param[1],param[2],param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-43",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "method" : "equalsRowAndColumnInDocuments(param[0],debe,param[1],param[2],param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-44",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "method" : "equalsRowAndColumnInDocuments(param[0],no debe,param[1],param[2],param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-45",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "method" : "isEqualTextPositionDocument(param[0],false,false,param[1],param[2],param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-46",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "method" : "isEqualTextPositionDocument(param[0],true,false,param[1],param[2],param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-47",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "method" : "isEqualTextPositionDocument(param[0],false,true,param[1],param[2],param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-48",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "method" : "isEqualTextPositionDocument(param[0],true,true,param[1],param[2],param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "VAE-49",
+        "class":"com.worker.test.steps.backend.CSVFileSteps",
+        "method" : "isEqualTextPositionDocument(param[1],true,false,all,all,param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "0000",
+        "class":"",
+        "method" : "",
+        "type" : ""
+    },
+    {
+        "id" : "VAP-1",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "checkNumberOfPagesPDF(param[0],null,param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAP-1A",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "checkNumberOfPagesPDF(param[0],param[1],param[2])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAP-2",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "checkTextPDF(param[0],null,debe,param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAP-2A",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "checkTextPDF(param[0],param[1],debe,param[2])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAP-3",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "checkTextPDF(param[0],null,no debe,param[1])",
+        "type" : "invoke"
+    },
+    {
+       "id" : "VAP-3A",
+       "class":"com.worker.test.steps.backend.PDFFileSteps",
+       "method" : "checkTextPDF(param[0],param[1],no debe,param[2])",
+       "type" : "invoke"
+    },
+    {
+        "id" : "VAP-4",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "checkListTextPDF(param[0],null,debe,param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAP-4A",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "checkListTextPDF(param[0],param[1],debe,param[2])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAP-5",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "checkListTextPDF(param[0],null,no debe,param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAP-5A",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "checkListTextPDF(param[0],param[1],no debe,param[2])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAP-7",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "checkListTextPDF(param[0],null,no debe,param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAP-7A",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "checkListTextPDF(param[0],param[1],no debe,param[2])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAP-8",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "checkListTextPDF(param[0],null,debe,param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VAP-8A",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "checkListTextPDF(param[0],param[1],debe,param[2])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VEM-1",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "method" : "isLastMessage(texto,param[0])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VEM-2",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "method" : "isLastMessage(texto parcial,param[0])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VEM-3",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "method" : "isTextInMessage(asunto,param[0],texto,param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VEM-4",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "method" : "isTextInMessage(asunto,param[0],texto parcial,param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VEM-5",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "method" : "isTextInMessage(asunto parcial,param[0],texto,param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VEM-6",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "method" : "isTextInMessage(asunto parcial,param[0],texto parcial,param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VEM-7",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "method" : "mailDocumentExist(asunto,param[0],param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VEM-8",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "method" : "mailDocumentExist(asunto parcial,param[0],param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VEM-9",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "method" : "mailAmountDocumentExist(asunto,param[0],param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VEM-10",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "method" : "mailAmountDocumentExist(asunto parcial,param[0],param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "VVI-1",
+        "class":"com.worker.test.steps.web.VisualSteps",
+        "method" : "testVisual(página,param[0],escritorio)",
+        "type" : "new"
+    },
+    {
+        "id" : "VVI-2",
+        "class":"com.worker.test.steps.web.VisualSteps",
+        "method" : "testVisual(página,param[0],tableta)",
+        "type" : "new"
+    },
+    {
+        "id" : "VVI-3",
+        "class":"com.worker.test.steps.web.VisualSteps",
+        "method" : "testVisual(página,param[0],móvil)",
+        "type" : "new"
+    },
+    {
+        "id" : "VVI-4",
+        "class":"com.worker.test.steps.web.VisualSteps",
+        "method" : "testVisual(sección,param[0],escritorio)",
+        "type" : "new"
+    },
+    {
+        "id" : "VVI-5",
+        "class":"com.worker.test.steps.web.VisualSteps",
+        "method" : "testVisual(sección,param[0],tableta)",
+        "type" : "new"
+    },
+    {
+        "id" : "VVI-6",
+        "class":"com.worker.test.steps.web.VisualSteps",
+        "method" : "testVisual(sección,param[0],móvil)",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-1",
+        "class":"com.worker.test.steps.web.ElementSteps",
+        "method" : "identifyTextByElement(param[0],param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-2",
+        "class":"com.worker.test.steps.web.ElementSteps",
+        "method" : "identifyTextByElementAndStartString(param[0],param[1],param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-3",
+        "class":"com.worker.test.steps.web.ElementSteps",
+        "method" : "identifyTextByElementAndEndString(param[0],param[1],param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-4",
+        "class":"com.worker.test.steps.web.ElementSteps",
+        "method" : "identifyTextByElementAndStartEndString(param[0],param[1],param[2],param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-5",
+        "class":"com.worker.test.steps.web.ElementSteps",
+        "method" : "identifyJoinVariables(param[0],param[1],union)",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-6",
+        "class":"com.worker.test.steps.web.ElementSteps",
+        "method" : "identifyJoinVariablesArray(param[0],param[1],no union)",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-7",
+        "class":"com.worker.test.steps.backend.ToolsSteps",
+        "method" : "identifyResultCommand(param[0],param[1],param[2],10)",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-8",
+        "class":"com.worker.test.steps.backend.ToolsSteps",
+        "method" : "SaveFileResultCommand(param[0],param[1],param[2],10)",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-9",
+        "class":"com.worker.test.steps.backend.ToolsSteps",
+        "method" : "identifyDigitsValue(param[0],param[1],param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-10",
+        "class":"com.worker.test.steps.backend.ToolsSteps",
+        "method" : "identifyFormatterNumber(param[0],param[1],param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-11",
+        "class":"com.worker.test.steps.backend.ToolsSteps",
+        "method" : "identifyTextByVariableAndStartEndString(param[0],param[1],param[2],param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-12",
+        "class":"com.worker.test.steps.backend.ToolsSteps",
+        "method" : "compareListSeparator(param[0],param[1],param[2],contenga,texto,param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-13",
+        "class":"com.worker.test.steps.backend.ToolsSteps",
+        "method" : "compareListSeparator(param[0],param[1],param[2],contenga,texto parcial,param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-14",
+        "class":"com.worker.test.steps.backend.ToolsSteps",
+        "method" : "compareListSeparator(param[0],param[1],param[2],no contenga,texto,param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-15",
+        "class":"com.worker.test.steps.backend.ToolsSteps",
+        "method" : "compareListSeparator(param[0],param[1],param[2],no contenga,texto parcial,param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-16",
+        "class":"com.worker.test.steps.backend.ToolsSteps",
+        "method" : "identifyUrl(param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-17",
+        "class":"com.worker.test.steps.backend.ToolsSteps",
+        "method" : "identifyRsaEncryption(param[0],param[1],param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXG-18",
+        "class":"com.worker.test.steps.web.ElementSteps",
+        "method" : "identifyJoinVariables(param[0],param[1],no union)",
+        "type" : "new"
+    },
+    {
+      "id" : "EXG-19",
+      "class":"com.worker.test.steps.web.ElementSteps",
+      "method" : "identifyOptionSelected(param[0],text,param[1])",
+      "type" : "new"
+    },
+    {
+      "id" : "EXG-20",
+      "class":"com.worker.test.steps.web.ElementSteps",
+      "method" : "identifyOptionSelected(param[0],value,param[1])",
+      "type" : "new"
+    },
+    {
+      "id" : "EXG-21",
+      "class":"com.worker.test.steps.web.ElementSteps",
+      "method" : "identifyOptionSelected(param[0],index,param[1])",
+      "type" : "new"
+    },
+    {
+      "id" : "EXG-22",
+      "class":"com.worker.test.steps.backend.ToolsSteps",
+      "method" : "identifyTextByVariableAndStartEndPosition(param[0],param[1],param[2],param[3])",
+      "type" : "new"
+    },
+    {
+        "id" : "EXT-1",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "identifyRowInTableByColumns(param[0],param[1],param[2],texto,param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXT-2",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "identifyRowInTableByColumns(param[0],param[1],param[2],texto,param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXT-3",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "identifyRowInTableByColumnsWithNext(param[0],param[1],param[2],param[3],texto,param[4])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXT-4",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "identifyRowInTableByColumnsWithNext(param[0],param[1],param[2],param[3],texto,param[4])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXT-5",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "identifyRowInTableByColumns(param[0],param[1],param[2],texto parcial,param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXT-6",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "identifyRowInTableByColumns(param[0],param[1],param[2],texto parcial,param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXT-7",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "identifyTextRowSelectedTableByColumn(param[0],param[1],param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXT-8",
+        "class":"com.worker.test.steps.web.TableSteps",
+        "method" : "identifyTextColumnArrayTableByColumn(param[0],param[1],param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "EXA-1",
+        "class":"com.worker.test.steps.backend.FileSteps",
+        "method" : "identifyNameLastFilePath(param[0], param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "EXA-2",
+        "class":"com.worker.test.steps.backend.XmlSteps",       
+        "type" : "invoke",
+        "method" : "identifyValueTag(param[0], param[1])"
+    },
+    {
+        "id" : "EXA-3",
+        "class":"com.worker.test.steps.backend.XmlSteps",       
+        "type" : "invoke",
+        "method" : "identifyValuesTag(param[0],los valores del,param[1])"
+    },
+    {
+        "id" : "EXA-4",
+        "class":"com.worker.test.steps.backend.XmlSteps",       
+        "type" : "invoke",
+        "method" : "identifyValuesTag(param[0],la lista de valores con el,param[1])"
+    },
+    {
+        "id" : "EXA-5",
+        "class":"com.worker.test.steps.backend.FlatFileSteps",
+        "type" : "invoke",
+        "method" : "identifyTextFlatFile(param[0],param[1])"
+    },
+    {
+        "id" : "EXA-6",
+        "class":"com.worker.test.steps.backend.FlatFileSteps",
+        "type" : "invoke",
+        "method" : "identifyTextFlatFileStartString(param[0],param[1],param[2])"
+    },
+    {
+        "id" : "EXA-7",
+        "class":"com.worker.test.steps.backend.FlatFileSteps",
+        "type" : "invoke",
+        "method" : "identifyTextFlatFileEndString(param[0],param[1],param[2])"
+    },
+    {
+        "id" : "EXA-8",
+        "class":"com.worker.test.steps.backend.FlatFileSteps",
+        "type" : "invoke",
+        "method" : "identifyTextFlatFileStartEndString(param[0],param[1],param[2],param[3])"
+    },
+    {
+        "id" : "EXA-9",
+        "class":"com.worker.test.steps.backend.JsonFileSteps",
+        "type" : "invoke",
+        "method" : "identifyJsonFlatFileStartEndString(param[0],param[1],param[2],param[3],param[4])"
+    },
+    {
+        "id" : "EXA-10",
+        "class":"com.worker.test.steps.backend.JsonFileSteps",
+        "type" : "invoke",
+        "method" : "identifyJsonFlatFileStartStringCondition(param[0],param[1],param[2],param[3])"
+    },
+    {
+        "id" : "EXA-11",
+        "class":"com.worker.test.steps.backend.PositionFileSteps",
+        "type" : "invoke",
+        "method" : "extractTextPositionFile(param[1],param[0],false,param[4],param[2], param[3])"
+    },
+    {
+        "id" : "EXA-12",
+        "class":"com.worker.test.steps.backend.PositionFileSteps",
+        "type" : "invoke",
+        "method" : "extractTextPositionFile(param[1],param[0],false,all,param[2],param[3])"
+    },
+    {
+       "id" : "EXA-13",
+       "class":"com.worker.test.steps.backend.PositionFileSteps",
+       "type" : "invoke",
+       "method" : "extractTextPositionFile(param[1],param[0],true,all,param[2],param[3])"
+    },
+    {
+       "id" : "EXA-14",
+       "class":"com.worker.test.steps.backend.FlatFileSteps",
+       "type" : "invoke",
+       "method" : "identifyRangeTextFlatFile(param[0],param[1],param[2],primeras)"
+    },
+    {
+       "id" : "EXA-15",
+       "class":"com.worker.test.steps.backend.FlatFileSteps",
+       "type" : "invoke",
+       "method" : "identifyRangeTextFlatFile(param[0],param[1],param[2],ultimas)"
+     },
+    {
+      "id" : "EXA-16",
+      "class":"com.worker.test.steps.backend.FileSteps",
+      "type" : "invoke",
+      "method" : "extractNameLastDownloadedFile(param[0])"
+    },
+    {
+        "id" : "EXP-1",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "identifyTextByElementAndStartStringPDF(param[0],param[1],null,param[2])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "EXP-1A",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "identifyTextByElementAndStartStringPDF(param[0],param[1],param[2],param[3])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "EXP-2",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "identifyTextByElementAndEndStringPDF(param[0],param[1],null,param[2])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "EXP-2A",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "identifyTextByElementAndEndStringPDF(param[0],param[1],param[2],param[3])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "EXP-3",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "identifyTextByElementAndStartEndStringPDF(param[0],param[1],null,param[2],param[3])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "EXP-3A",
+        "class":"com.worker.test.steps.backend.PDFFileSteps",
+        "method" : "identifyTextByElementAndStartEndStringPDF(param[0],param[1],param[2],param[3],param[4])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "EXE-1",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "method" : "identifyTextByElementAndStartStringMail(param[0],param[1],asunto,param[2])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "EXE-2",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "method" : "identifyTextByElementAndStartStringMail(param[0],param[1],asunto parcial,param[2])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "EXE-3",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "method" : "identifyTextByElementAndEndStringMail(param[0],param[1],asunto,param[2])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "EXE-4",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "method" : "identifyTextByElementAndEndStringMail(param[0],param[1],asunto parcial,param[2])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "EXE-5",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "method" : "identifyTextByElementAndStartEndStringMail(param[0],param[1],param[2],asunto,param[3])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "EXE-6",
+        "class":"com.worker.test.steps.backend.MailSteps",
+        "method" : "identifyTextByElementAndStartEndStringMail(param[0],param[1],param[2],asunto parcial,param[3])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-1",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "callWebServiceREST(param[0])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-2",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "callWebServiceRequestREST(param[0],param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-3",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "callWebServiceUrlREST(param[0],param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-4",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "callWebServiceParametersREST(param[0],param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-5",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "callWebServiceParametersREST(param[0],param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-6",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "callWebServiceWithRequest(param[0])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-7",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "verifyResponseParametersWebService(param[0])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-8",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "defineSchemaForWebserviceRequestOrResponse(petición,param[0])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-9",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "addValueForWebserviceRequestOrResponse( param[0],param[1],petición)",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-10",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "addValueForWebserviceRequestOrResponse( param[0],param[1],respuesta)",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-11",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "defineSchemaForWebserviceRequestOrResponse(respuesta,param[0])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-12",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "verifyResponseWebService(exactamente,retornar)",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-13",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "verifyResponseWebService(con textos parciales,retornar)",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-14",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "indentifyValueTagResponse(param[0],param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-15",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "verifyResponseWebServiceREST(debe,retornar,textos)",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-16",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "callWebServiceUrlNoParameterREST(param[0])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-17",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "defineSchemaREST(petición,param[0])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-18",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "defineSchemaREST(respuesta,param[0])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-19",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "identifyValueTagResponseREST(param[0],param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-20",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "addValueForWebserviceREST(param[0],param[1],petición)",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-21",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "addValueForWebserviceREST(param[0],param[1],respuesta)",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-22",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "callWebServiceRequestParametersREST(param[0],param[1],param[2])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-23",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "callWebServiceRequestParametersREST(param[0],param[1],param[2])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-24",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "verifyResponseWebServiceREST(debe,retornar,textos parciales)",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-25",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "verifyResponseWebServiceREST(debe,contener,textos)",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-26",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "verifyResponseWebServiceREST(debe,contener,textos parciales)",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-27",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "verifyResponseWebServiceREST(no debe,retornar,textos)",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-28",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "verifyResponseWebServiceREST(no debe,retornar,textos parciales)",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-29",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "verifyResponseWebServiceREST(no debe,contener,textos)",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-30",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "verifyResponseWebServiceREST(no debe,contener,textos parciales)",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-31",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "verifyResponseWebServiceRESTNotJson(no debe,texto,param[0])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-32",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "verifyResponseWebServiceRESTNotJson(no debe,texto parcial,param[0])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-33",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "verifyResponseWebServiceRESTNotJson(debe,texto,param[0])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WSV-34",
+        "class":"com.worker.test.steps.backend.WebServiceSteps",
+        "method" : "verifyResponseWebServiceRESTNotJson(debe,texto parcial,param[0])",
+        "type" : "invoke"
+    },
+    {
+      "id" : "WSV-35",
+      "class":"com.worker.test.steps.backend.WebServiceSteps",
+      "method" : "verifyResponseWebService(exactamente,contener)",
+      "type" : "invoke"
+    },
+    {
+      "id" : "WSV-36",
+      "class":"com.worker.test.steps.backend.WebServiceSteps",
+      "method" : "verifyResponseWebService(con textos parciales,contener)",
+      "type" : "invoke"
+    },
+
+    {
+        "id" : "ISV-1",
+        "class":"com.worker.test.steps.backend.IsoServiceSteps",
+        "method" : "defineTypeAndPackager(param[0],param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "ISV-2",
+        "class":"com.worker.test.steps.backend.IsoServiceSteps",
+        "method" : "defineType(param[0])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "ISV-3",
+        "class":"com.worker.test.steps.backend.IsoServiceSteps",
+        "method" : "defineRequest(param[0],param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "ISV-4",
+        "class":"com.worker.test.steps.backend.IsoServiceSteps",
+        "method" : "sendIsoMessage(param[0],param[1])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "ISV-5",
+        "class":"com.worker.test.steps.backend.IsoServiceSteps",
+        "method" : "receiveReply()",
+        "type" : "invoke"
+    },
+    {
+        "id" : "ISV-6",
+        "class":"com.worker.test.steps.backend.IsoServiceSteps",
+        "method" : "identifyResponseIsoMessage(param[0])",
+        "type" : "invoke"
+    },
+    {
+        "id" : "WAI-1",
+        "class":"com.worker.test.steps.web.WaitSteps",
+        "method" : "wait(1)",
+        "type" : "new"
+    },
+    {
+        "id" : "WAI-2",
+        "class":"com.worker.test.steps.web.WaitSteps",
+        "method" : "wait(param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "WAI-3",
+        "class":"com.worker.test.steps.web.WaitSteps",
+        "method" : "wait(param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "WAI-4",
+        "class":"com.worker.test.steps.web.WaitSteps",
+        "method" : "waitForElementPresent(param[0],presente)",
+        "type" : "new"
+    },
+    {
+        "id" : "WAI-5",
+        "class":"com.worker.test.steps.web.WaitSteps",
+        "method" : "waitForElementPresent(param[0],habilitado)",
+        "type" : "new"
+    },
+    {
+        "id" : "WAI-6",
+        "class":"com.worker.test.steps.web.WaitSteps",
+        "method" : "waitForVisible(param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "WAI-7",
+        "class":"com.worker.test.steps.web.WaitSteps",
+        "method" : "waitForElementDisappear(param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "WAI-8",
+        "class":"com.worker.test.steps.web.WaitSteps",
+        "method" : "waitForInputNotEmpty(param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "WAI-9",
+        "class":"com.worker.test.steps.web.WaitSteps",
+        "method" : "waitForOptionVisible(param[0],param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "SPS-1",
+        "class":"com.worker.test.steps.backend.DolphinSteps",
+        "method" : "checkDaysPassedOfMonth(param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "SPS-2",
+        "class":"com.worker.test.steps.backend.DolphinSteps",
+        "method" : "theUserDoesNothing(false)",
+        "type" : "new"
+    },
+    {
+        "id" : "SPS-3",
+        "class":"com.worker.test.steps.backend.BackgroundSteps",
+        "method" : "setSqlWithFileInBackground(param[0],param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "SPS-4",
+        "class":"com.worker.test.steps.web.ElementSteps",
+        "method" : "selectRadioButtonWithQuestion(param[0],param[1],param[2],param[3])",
+        "type" : "new"
+    },
+    {
+        "id" : "SPS-5",
+        "class":"com.worker.test.steps.backend.ToolsSteps",
+        "method" : "identifyHashing(param[0],param[1],param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "SPS-6",
+        "class":"com.worker.test.steps.backend.ToolsSteps",
+        "method" : "identifySumValues(param[0],suma,param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "SPS-7",
+        "class":"com.worker.test.steps.backend.ToolsSteps",
+        "method" : "identifySumValues(param[0],multiplicación,param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "SPS-8",
+        "class":"com.worker.test.steps.backend.ToolsSteps",
+        "method" : "identifyRestValues(param[0],restar,param[1],a la cantidad,param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "SPS-9",
+        "class":"com.worker.test.steps.backend.ToolsSteps",
+        "method" : "identifyRestValues(param[0],dividir,param[1],entre,param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "SPS-10",
+        "class":"com.worker.test.steps.backend.BackgroundSteps",
+        "method" : "setSqlWithFileInBackgroundParameters(param[0],param[1],param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "SPS-11",
+        "class":"com.worker.test.steps.backend.DolphinSteps",
+        "method" : "generateRandomNumber(param[0],param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "SPS-12",
+        "class":"com.worker.test.steps.web.NavigationSteps",
+        "method" : "identifyCookie(param[0],param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "SPS-13",
+        "class":"com.worker.test.steps.backend.DolphinSteps",
+        "method" : "theUserDoesNothing(true)",
+        "type" : "new"
+    },
+    {
+        "id" : "EXB-1",
+        "class":"com.worker.test.steps.backend.DataBaseSteps",
+        "method" : "identifyResultInSql(param[0],param[1],param[2])",
+        "type" : "new"
+    },
+    {
+        "id" : "MBS-1",
+        "class":"com.worker.test.steps.mobile.MobileSteps",
+        "method" : "launchTo(param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "MBS-2",
+        "class":"com.worker.test.steps.mobile.MobileSteps",
+        "method" : "pressElementByText(presiona prolongadamente,texto parcial,param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "MBS-3",
+        "class":"com.worker.test.steps.mobile.MobileSteps",
+        "method" : "pressElementByText(presiona prolongadamente,texto,param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "MBS-4",
+        "class":"com.worker.test.steps.mobile.MobileSteps",
+        "method" : "pressElementByText(presiona,texto parcial,param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "MBS-5",
+        "class":"com.worker.test.steps.mobile.MobileSteps",
+        "method" : "pressElementByText(presiona,texto,param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "MBS-6",
+        "class":"com.worker.test.steps.mobile.MobileSteps",
+        "method" : "pressElement(presiona prolongadamente,param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "MBS-7",
+        "class":"com.worker.test.steps.mobile.MobileSteps",
+        "method" : "pressElement(presiona,param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "MBS-8",
+        "class":"com.worker.test.steps.mobile.MobileSteps",
+        "method" : "swipeScreen(izquierda)",
+        "type" : "new"
+    },
+    {
+        "id" : "MBS-9",
+        "class":"com.worker.test.steps.mobile.MobileSteps",
+        "method" : "swipeScreen(derecha)",
+        "type" : "new"
+    },
+    {
+        "id" : "MBS-10",
+        "class":"com.worker.test.steps.mobile.MobileSteps",
+        "method" : "swipeScreen(arriba)",
+        "type" : "new"
+    },
+    {
+        "id" : "MBS-11",
+        "class":"com.worker.test.steps.mobile.MobileSteps",
+        "method" : "swipeScreen(abajo)",
+        "type" : "new"
+    },
+    {
+        "id" : "MBS-12",
+        "class":"com.worker.test.steps.mobile.MobileSteps",
+        "method" : "takePic()",
+        "type" : "new"
+    },
+    {
+        "id" : "MBS-13",
+        "class":"com.worker.test.steps.mobile.MobileSteps",
+        "method" : "selectDate(param[0],param[1])",
+        "type" : "new"
+    },
+    {
+        "id" : "MBS-14",
+        "class":"com.worker.test.steps.mobile.MobileSteps",
+        "method" : "swipeElement(param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "DKS-1",
+        "class":"com.worker.test.steps.desktop.DesktopSteps",
+        "method" : "launchTo(param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "DKS-2",
+        "class":"com.worker.test.steps.desktop.DesktopSteps",
+        "method" : "clickOnElement(param[0])",
+        "type" : "new"
+    },
+    {
+        "id" : "DKS-3",
+        "class":"com.worker.test.steps.desktop.DesktopSteps",
+        "method" : "inputText(param[0], param[1])",
+        "type" : "new"
+    }
+]
+}
